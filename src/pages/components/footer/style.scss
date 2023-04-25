@@ -1,0 +1,232 @@
+
+@import '../../../assets/style/mixin.scss';
+.L-footer-block{
+    width: 100%;
+
+    background-color: #201f33;
+    padding-top: 65px;
+margin-top: 20px;
+.L-div{
+    width: 100%;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include screen(615px){
+      display: block;
+        }
+    .L-footer{
+        width: 24%;
+  
+height: 400px;
+        @include screen(1000px){
+        width: 48%;
+
+        }
+        @include screen(615px){
+         width: 98%;
+         margin: auto;
+         height: 250px;
+     padding-left: 180px;
+            }
+            @include screen(510px){
+                width: 98%;
+                margin: auto;
+       
+            padding-left: 100px;
+                   }
+                   @include screen(375px){
+             
+                padding-left: 50px;
+                       }
+        .L-font{
+            font-weight: bold;
+            line-height: 1.2;
+            color: #ffff;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 29px;
+padding-top: 25px;
+font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    @include screen(600px){
+                 font-size: 24px;
+        padding-top: 0px;
+               }
+        }
+
+        .L-check-box{
+            width: 200px;
+            height: 40px;
+
+            display: flex;
+            padding-top: 35px;
+            @include screen(615px){
+                 
+                padding-top: 20px;
+                       }
+           .L-check{
+            width: 25px;
+            height: 25px;
+           
+           
+           }
+           .L-p{
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #ffff;
+            padding-left: 10px;
+        }
+
+        }
+        .L-icon{
+            width: 100%;
+            height: 200px;
+         margin-top: 25px;
+         @include screen(615px){
+                 
+           margin-top: 10px;
+                   }
+            .L-blocks{
+                display: flex;
+
+                .L-p{
+                    font-size: 22px;
+                    color: white;
+                    padding-top: 18px;
+                    padding-left: 10px;
+                }
+            }
+        }
+        .L-icons{
+            display: flex;
+            margin-top: 50px;
+            @include screen(615px){
+                 
+              margin-top: 20px;
+                       }
+        }
+    }
+        .L-footer1{
+            width: 24%;
+            
+            @include screen(1000px){
+                width: 48%;
+                height: 300px;
+                }
+            @include screen(615px){
+                width: 98%;
+                margin: auto;
+
+            
+                   }
+               
+                   .L-font{
+                    font-weight: bold;
+                    line-height: 1.2;
+                    color: #ffff;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 29px;
+        padding-top: 25px;
+        font-weight: 500;
+            font-family: 'Roboto', sans-serif;
+            
+                }
+        .L-inp{
+            width: 99%;
+            border: none;
+            height: 45px;
+            margin-bottom: 5px;
+            padding-left: 25px;
+            background-color: #eaeaea;
+            outline: none;
+            color: #101010;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            margin-top: 35px;
+        }
+        .L-btn{
+            background-color: #0caa7d;
+            padding: 15px 45px;
+            outline: none;
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+        cursor: pointer;
+        margin-top: 10px;
+            &:hover{
+                background-color: #088d67;
+            }
+        }
+    }
+    .L-footer2{
+       
+        @include screen(1000px){
+            width: 48%;
+
+            }
+            @include screen(615px){
+             width: 98%;
+             margin: auto;
+             height: 200px;
+         padding-left: 180px;
+                }
+                @include screen(510px){
+                    width: 98%;
+                    margin: auto;
+           
+                padding-left: 100px;
+                       }
+                       @include screen(375px){
+             
+                        padding-left: 50px;
+                               }
+                      
+        .L-font{
+            font-weight: bold;
+            line-height: 1.2;
+            color: #ffff;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 29px;
+padding-top: 25px;
+font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    @include screen(600px){
+                 font-size: 24px;
+        padding-top: 0px;
+               }
+        }
+        .L-icons{
+            display: flex;
+            margin-top: 50px;
+            @include screen(600px){
+                 
+              margin-top: 20px;
+                       }
+        }
+    }
+    
+}
+  .L-info{
+    border-top: 1px solid #ffffff;
+    width: 60%;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 35px;
+    font-size: 20px;
+    @include screen(750px){
+    width: 100%;
+                         } 
+                         @include screen(400px){
+                       font-size: 17px;
+                                                 } 
+  }  
+}

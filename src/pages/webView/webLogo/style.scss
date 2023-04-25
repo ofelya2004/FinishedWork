@@ -1,0 +1,108 @@
+.Weblogo{
+    width: 100%; 
+ background-image: url('../../../assets/image/hero-bg.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ .L-div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    // @include screen(1150px){
+    //     height: 100px;
+         
+    //                   }
+    .L-open{
+        display: flex;
+ 
+        .L-i{
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            background-image: url('../../../assets/image/logo.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .L-font{
+            color: #0878a0;
+            font-size: 22px;
+            font-weight: 600;
+    
+            background-color: transparent;
+padding-top: 20px;
+        }
+        .L-p{
+            font-family: 'Poppins', sans-serif;
+            padding-right: 30px;
+            font-size: 18px;
+            padding-top: 15px;
+        }
+
+    }
+   
+ }
+ .L-big{
+    width: 100%;
+    height: 700px;
+ 
+display: flex;
+    .L-logo-block{
+
+        width: 350px;
+        height: 400px;
+  margin-left: 150px;
+        margin-top: 60px;
+      padding-left: 15px;
+
+        .L-logo-font{
+            
+            font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    
+        }
+        .L-h{
+            width: 100%;
+            margin: 15px 0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        .L-read{
+      
+            display: inline-block;
+            padding: 10px 45px;
+            background-color: #fb1004;
+            color: #ffffff;
+            border-radius: 0;
+            margin-top: 15px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1.5;
+            border: none;
+            cursor: pointer;
+    
+            &:hover{
+          background-color: rgb(168, 75, 75);
+            }
+        }
+    }
+    .L-logo{
+        width: 70%;
+        height: 600px;
+   
+                background-image: url('../../../assets/image/hero.png');
+                background-position:center;
+                background-repeat: no-repeat;
+                background-size: contain;
+    }
+ }
+ 
+}
